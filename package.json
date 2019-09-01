@@ -1,6 +1,11 @@
 {
   "name": "system-status-page",
   "version": "0.0.0",
+  "author": {
+    "name": "Jhonatan Medeiros",
+    "email": "contato@jhonatan.medeiros.com",
+    "url": "https://jhonatanmedeiros.com"
+  },
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
@@ -20,9 +25,13 @@
     "@angular/platform-browser": "~8.1.2",
     "@angular/platform-browser-dynamic": "~8.1.2",
     "@angular/router": "~8.1.2",
-    "@nebular/eva-icons": "4.2.1",
+    "@fortawesome/fontawesome-free": "^5.10.2",
+    "@nebular/eva-icons": "^4.2.1",
     "@nebular/theme": "^4.2.1",
+    "bootstrap": "^4.3.1",
     "eva-icons": "^1.1.1",
+    "nebular-icons": "^1.1.0",
+    "roboto-fontface": "^0.10.0",
     "rxjs": "~6.4.0",
     "tslib": "^1.9.0",
     "zone.js": "~0.9.1"
