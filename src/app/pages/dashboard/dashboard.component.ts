@@ -7,6 +7,8 @@ import { Component, OnInit } from '@angular/core';
 })
 export class DashboardComponent implements OnInit {
 
+  items: any[] = new Array(5);
+
   constructor() { }
 
   ngOnInit() {

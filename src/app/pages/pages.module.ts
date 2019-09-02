@@ -1,6 +1,6 @@
 import { NgModule } from '@angular/core';
 
-import { NbMenuModule } from '@nebular/theme';
+import { NbCardModule, NbMenuModule } from '@nebular/theme';
 
 import { ThemeModule } from '../@theme/theme.module';
 
@@ -14,7 +14,8 @@ import { NotFoundComponent } from './miscellaneous/not-found/not-found.component
   imports: [
     PagesRoutingModule,
     ThemeModule,
-    NbMenuModule
+    NbMenuModule,
+    NbCardModule
   ],
   declarations: [
     PagesComponent,

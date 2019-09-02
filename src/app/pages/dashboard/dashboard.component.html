@@ -1,1 +1,32 @@
-<p>dashboard works!</p>
+<div class="card-container">
+  <nb-card size="tiny" *ngFor="let item of items">
+    <nb-card-header>
+      <div class="card-header-title">
+        <span>Google</span>
+<!--        <i class="far fa-smile text-success"></i>-->
+        <i class="far fa-frown text-danger"></i>
+      </div>
+    </nb-card-header>
+    <nb-card-body>
+      <div class="monitor-item">
+        <p>URL:</p>
+        <div class="monitor-item-block">
+          <a href="#" target="_blank">https://gogle.com</a>
+        </div>
+      </div>
+      <div class="monitor-item">
+        <p>Situação atual:</p>
+        <div class="monitor-item-block">
+          <span class="text-success">Funcionado</span>
+          <small class="text-muted">Última atualização 13:25:07 01/08/2019</small>
+        </div>
+      </div>
+      <div class="monitor-item">
+        <p>Descrição:</p>
+        <div class="monitor-item-block">
+          <span>Lorem Ipsum é simplesmente uma simulação de texto da indústria tipográfica e de impressos.</span>
+        </div>
+      </div>
+    </nb-card-body>
+  </nb-card>
+</div>
